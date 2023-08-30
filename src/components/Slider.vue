@@ -62,7 +62,6 @@ export default {
 
 <style>
 .parallax-slider {
-    margin-top: 20px;
     width: calc(100% + 20px);
     transform: translateX(-10px);
 }

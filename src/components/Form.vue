@@ -1,5 +1,5 @@
 <template>
-  <p class="form__subtitle">Свяжитесь с нами</p>
+  <p class="form__subtitle">Закажите сейчас</p>
   <div class="form-conteiner">
     <form @submit.prevent="" class="form">
         <input class="form-input" type="text" id="name" v-model="formData.name" required placeholder="Ваше имя"/>
@@ -27,7 +27,7 @@ export default {
 .form__subtitle {
     font-size: 28px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin: 20px 0 10px 0;
     text-align: center;
 }
 .form-conteiner {

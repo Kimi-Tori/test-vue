@@ -1,10 +1,10 @@
 <template>
   <div class="container">
-    <ProductPage/>
-    <TabsComponent/>
     <SliderComponent>
       :slider_data='sliderItems'
     </SliderComponent>
+    <ProductPage/>
+    <TabsComponent/>
     <FormComponent/>
   </div>
 </template>

@@ -7,20 +7,24 @@
         <div class="tab-content">
             <div class="tab-pane" v-show="isActive('tab-1')">
                 <div class="for-example">
-                    <p>- qwqwq</p>
-                    <p>- qweqwweqwe</p>
-                    <p>- qweqwweqwe</p>
-                    <p>- qweqweqwe</p>
-                    <p>- qweqweqwe</p>
+                    <p>A superhero is a character endowed with extraordinary abilities ("superpowers"), which he uses to accomplish feats in the name of the common good. After the debut of a prototypical superhero named Superman in 1938, the idea of a superhero — from brief, episodic adventure stories to long—term and multi-part sagas - became dominant in American comics, from which it subsequently spread to other formats of fiction.</p>
                 </div>
             </div>
             <div class="tab-pane" v-show="isActive('tab-2')">
                 <div class="for-example">
-                    <p>- eweweew</p>
-                    <p>- wewewewew</p>
-                    <p>- weweweqw</p>
-                    <p>- wewewewewewew</p>
-                    <p>- wewewe</p>
+                    <p>Package name - 5.7 AT Z28 SS</p>
+                    <p>Release period - 1995 - 1997</p>
+                    <p>Type of drive - Задний</p>
+                    <p>Body type - Открытый кузов</p>
+                    <p>Transmission type - АКПП 4</p>
+                    <p>Engine volume, cc - куб.см	5733</p>
+                    <p>Acceleration time 0-100 km/h, s - с	6.3</p>
+                    <p>Maximum speed, km/h - км/ч	250</p>
+                    <p>Ground clearance (road clearance), mm - мм	124</p>
+                    <p>Assembly country - Канада</p>
+                    <p>Number of doors - 2</p>
+                    <p>Manufacturer's Warranty - 3 года или 36 000 миль пробега</p>
+                    <p>Тех. характеристик супергероев увы не было</p>
                 </div>
             </div>
         </div>
@@ -86,8 +90,11 @@ export default {
     width: calc(100% - 44px);
     min-height: 200px;
 }
+.for-example p {
+    margin: 2.5px 0;
+}
 .tab-pane {
-    max-width: 300px;
+    max-width: 500px;
     width: 100%;
 }
 </style>
